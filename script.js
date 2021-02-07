@@ -5,7 +5,8 @@ const search = document.getElementById("search"),
   mealsEl = document.getElementById("meals"),
   resultHeading = document.getElementById("result-heading"),
   single_mealEl = document.getElementById("single-meal");
-function searchMeal(e) {
+
+  function searchMeal(e) {
   e.preventDefault();
   single_mealEl.innerHTML = "";
   const term = search.value;
